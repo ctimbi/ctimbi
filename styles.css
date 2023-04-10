@@ -20,6 +20,10 @@ nav {
   background-color: #eee;
 }
 
+a {
+  color: yellow
+}
+
 nav a {
   display: inline-block;
   min-width: 9rem;
@@ -28,7 +32,15 @@ nav a {
   border: solid 1px #aaa;
   text-align: center;
   text-decoration: none;
-  color: #555;
+  color: blue;
+}
+
+aside a {
+  color: red
+}
+
+aside a.linkexterno {
+  color: yellow
 }
 
 nav a[aria-current='page'] {
@@ -39,6 +51,17 @@ nav a[aria-current='page'] {
 main {
   padding: 1rem;
 }
+
+main div {
+  background-color: #aaa;
+  
+  
+}
+
+main div a{
+  font-size: 40px;
+}
+
 
 h1 {
   font-weight: bold;
@@ -68,4 +91,8 @@ video {
   color: white;
   font-size: 24px;
   text-align: center;
+}
+
+#linkgoogle {
+  color: #aaa;
 }
