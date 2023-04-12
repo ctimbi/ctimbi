@@ -1,0 +1,42 @@
+.nube {
+  position: relative;
+  width: 100px;
+  height: 60px;
+  overflow: hidden;
+}
+
+.nube__circulo {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: white;
+  opacity: 0.8;
+}
+
+.nube__circulo:nth-child(1) {
+  top: 0;
+  left: 0;
+  animation: mover-circulo 6s linear infinite;
+}
+
+.nube__circulo:nth-child(2) {
+  top: 0;
+  right: 0;
+  animation: mover-circulo 7s linear infinite;
+}
+
+.nube__circulo:nth-child(3) {
+  bottom: 0;
+  right: 0;
+  animation: mover-circulo 5s linear infinite;
+}
+
+@keyframes mover-circulo {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
