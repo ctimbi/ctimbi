@@ -96,3 +96,25 @@ video {
 #linkgoogle {
   color: #aaa;
 }
+
+.new_size {
+  font-size: xx-large;
+}
+
+
+/* Definimos la animación llamada "desplazar" */
+@keyframes desplazar {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(0); }
+}
+
+/* Aplicamos la animación al elemento "li" */
+.desplazar {
+  animation-name: desplazar;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}

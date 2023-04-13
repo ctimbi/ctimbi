@@ -9,10 +9,10 @@
 </head>
 <body>
 	<header>
-		<h1>Mi sitio web</h1>
+		<h1 id="titulo1">Mi sitio web</h1>
 		<a href="page2.html">Inicio 444</a>
 		<nav>
-			<ul>
+			<ul id="menu">
 				<li><a href="page2.html">Inicio</a></li>
 				<li><a href="nube.html">Animacion nubes</a></li>
 				<li><a href="#">Contacto</a></li>
@@ -50,11 +50,14 @@
 			</footer>
 		</article>
 		<aside>
-			<h3>Artículos relacionados</h3>
+			<h3 onclick="addLink">Artículos relacionados</h3>
+			<button id="addLink">Agregar link</button>
 			<ul>
 				<li><a href="#" id="linkgoogle">Cómo hacer X</a></li>
 				<li><a href="#" class="linkexterno">Por qué Y es importante</a></li>
 				<li><a href="#">10 consejos para Z</a></li>
+				<li><a href="#" id="linkgoogle">Cómo hacer X</a></li>
+				<li><a href="#" class="linkexterno">Por qué Y es importante</a></li>
 			</ul>
 		</aside>
 	</section>
